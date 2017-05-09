@@ -1,0 +1,74 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+.shadow-gallery{
+    top: 85px; 
+}
+.bigger-text{
+    padding: 0;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.bigger-text{
+    font-size: 15px;
+    padding: 0;
+}
+.shadow-gallery{
+    top:65px;
+}
+.bigger-text h1 {
+    font-size: 30px;
+    margin: 10px 0 30px;
+} 
+ .shadow-gallery img:nth-child(3) {
+      left: -10px;bottom: -70px;
+}   
+.shadow-gallery img:nth-child(1) {
+    right: -30px;
+    top: -40px;
+}    
+.shadow-gallery img {
+    width: 60%;
+}    
+.shadow-gallery img:nth-child(3) {
+    width: 80%;
+} 
+  
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+ .bigger-text h1 {
+    font-size: 26px;
+    margin: 10px 0 20px;
+} 
+.box-button {
+    margin-top: 30px
+}    
+ .bigger-text {
+    font-size: 14px;
+    padding: 0 
+}   
+.shadow-gallery {
+    margin-top: 60px;
+}    
+.shadow-gallery img:nth-child(3) {
+    left: 0px;
+    width: 100%;
+}    
+.shadow-gallery img {
+    width: 65%;
+} 
+ .shadow-gallery img:nth-child(1) {
+    right: -30px;
+}   
+.shadow-gallery img:nth-child(2) {
+    top: -12px; right: -50px;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
